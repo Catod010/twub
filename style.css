@@ -206,9 +206,12 @@
 
 .hero-side-text {
   position: absolute;
-  right: -60px; /* ajusta a distância */
   top: 50%;
   transform: translateY(-50%) rotate(90deg);
+  right: -80px;   /* mais pra fora */
+  font-size: 140px; /* maior */
+  opacity: 0.5;   /* mais discreto */
+  letter-spacing: 20px; /* mais espaçado */
   
   font-family: 'Bebas Neue', sans-serif;
   font-size: 120px;
