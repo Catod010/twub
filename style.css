@@ -204,6 +204,23 @@
     letter-spacing: -0.02em;
   }
 
+.hero-side-text {
+  position: absolute;
+  right: -60px; /* ajusta a distância */
+  top: 50%;
+  transform: translateY(-50%) rotate(90deg);
+  
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 120px;
+  letter-spacing: 10px;
+  font-weight: 700;
+
+  color: #00aaff; /* pode mudar pra tua cor */
+  opacity: 0.8;
+
+  pointer-events: none;
+}
+
   .hero-left {
     display: flex;
     flex-direction: column;
