@@ -207,23 +207,20 @@
 .hero-side-text {
   position: absolute;
   top: 50%;
+  right: -80px;
   transform: translateY(-50%) rotate(90deg);
-  right: -80px;   /* mais pra fora */
-  font-size: 140px; /* maior */
-  opacity: 0.5;   /* mais discreto */
-  letter-spacing: 20px; /* mais espaçado */
-  
+
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 120px;
-  letter-spacing: 10px;
+  font-size: 140px;
+  letter-spacing: 20px;
   font-weight: 700;
 
   color: var(--accent);
-  opacity: 0.8;
+  opacity: 0.3;
 
+  z-index: 1; /* 🔥 ATRÁS */
   pointer-events: none;
 }
-
   .hero-left {
     display: flex;
     flex-direction: column;
