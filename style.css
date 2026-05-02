@@ -382,9 +382,13 @@
   }
 
   .product-float {
-  position: relative;
-  z-index: 2;
-}
+    position: relative;
+    z-index: 2;
+    animation: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 
   .product-float img {
