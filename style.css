@@ -218,7 +218,7 @@
   letter-spacing: 10px;
   font-weight: 700;
 
-  color: #00aaff; /* pode mudar pra tua cor */
+  color: var(--accent);
   opacity: 0.8;
 
   pointer-events: none;
